@@ -1,8 +1,61 @@
+body{
+    background: #ccc;
+    font-family: verdana;
+    max-width: 900px;
+    margin: auto;
+}
+
 #title, .subtitle, .post_title {
-    color: blue;
+    color: rgb(41, 41, 44);
+}
+
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: line-through;
 }
 
 .post_title {
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post {
+    background: #fff;
+    padding: 15px;
+    border: 3px solid rgb(140, 140, 140);
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+.post_contet{
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.post_img{
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.img_top{
+    border: 2px solid rgb(246, 157, 61);
+    border-radius: 50%;
+}
+
+.contato_list{
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contato_list li a{
+    color: blue;
+    text-decoration: none;
 }
